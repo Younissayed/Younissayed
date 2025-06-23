@@ -1,31 +1,31 @@
- ملف واحد
-+2
--2
-تم تغيير الخطوط
-قمة
- 
-‎README.md
-+ 2- 2تم تغيير الأسطر: إضافتان وحذفتان
-رقم سطر الملف الأصليرقم خط الاختلافتغيير خط الاختلاف
-@@ -1,4 +1,4 @@
-1-
-## नमस्ते (Namaste), I am [Dhruv Jain](http://maddhruv.xyz/?=github)
-1+
-## नमस्ते (Namaste), I am [Dhruv Jain](https://maddhruv.dev/)
-22
+## السلام عليكم، أنا [Younis Elsayyed](https://github.com/youniselsayyed)
 
-33
-[![YouTube Badge](https://img.shields.io/badge/-@Dhruv%20Jain-c4302b?style=flat-square&labelColor=c4302b&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UCQXt2DMbgcjO5xpAd0cFS8A)](https://www.youtube.com/channel/UCQXt2DMbgcjO5xpAd0cFS8A) [![Twitter Badge](https://img.shields.io/badge/-@maddhruv-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/maddhruv)](https://twitter.com/maddhruv) [![Instagram Badge](https://img.shields.io/badge/-@maddhruv-F44747?style=flat-square&labelColor=F44747&logo=instagram&logoColor=white&link=https://instagram.com/maddhruv)](https://instagram.com/maddhruv) [![Linkedin Badge](https://img.shields.io/badge/-midhruvjaink-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/midhruvjaink/)](https://www.linkedin.com/in/midhruvjaink/)
-44
-[![Gmail Badge](https://img.shields.io/badge/-dhruvjainpenny@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dhruvjainpenny@gmail.com)](mailto:dhruvjainpenny@gmail.com)
-@@ -7,4 +7,4 @
-77
+[![YouTube Badge](https://img.shields.io/badge/-@YounisElSayyed-c4302b?style=flat-square&labelColor=c4302b&logo=youtube&logoColor=white&link=https://www.youtube.com/@YounisElSayyed)](https://www.youtube.com/@YounisElSayyed)
+[![Twitter Badge](https://img.shields.io/badge/-@younis_elsayyed-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/younis_elsayyed)](https://twitter.com/younis_elsayyed)
+[![Instagram Badge](https://img.shields.io/badge/-@younis.elsayyed-F44747?style=flat-square&labelColor=F44747&logo=instagram&logoColor=white&link=https://instagram.com/younis.elsayyed)](https://instagram.com/younis.elsayyed)
+[![LinkedIn Badge](https://img.shields.io/badge/-Younis%20Elsayyed-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/younis-elsayyed)](https://www.linkedin.com/in/younis-elsayyed)
+[![Gmail Badge](https://img.shields.io/badge/-younis.elsayyed@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:younis.elsayyed@gmail.com)](mailto:younis.elsayyed@gmail.com)
 
-88
-![NPM Stats](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmaddhruv%2Fnpm-statistics%2Fmaster%2Fstats.json)
-99
+---
 
-10-
-### I am learning blog writings here - [maddhruv.dev](http://maddhruv.dev)
-10+
-### I am learning blog writings here - [maddhruv.dev](https://maddhruv.dev)
+### 👨‍💻 من أنا؟
+- 💻 Flutter Developer
+- 🎥 Content Creator on YouTube
+- 🎯 مهتم بتطوير تطبيقات الهاتف باستخدام Flutter ودائمًا أشارك معرفتي على اليوتيوب
+- 📚 حاليًا بتعلم تقنيات متقدمة في Flutter + Backend (Firebase / Node.js)
+
+---
+
+### 📈 GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=youniselsayyed&show_icons=true&theme=radical)
+
+---
+
+### 📹 جديد على القناة
+🎥 شاهد أحدث فيديوهات البرمجة على [YouTube](https://www.youtube.com/@YounisElSayyed)
+
+---
+
+### ✍️ أكتب أيضًا مقالات برمجية على:
+[مدونتي قيد الإنشاء](https://youniselsayyed.dev)
+
