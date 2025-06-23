@@ -1,4 +1,4 @@
-## السلام عليكم، أنا [Younis Elsayyed](https://github.com/youniselsayyed)
+## السلام عليكم، أنا [Younis Elsayed](https://github.com/youniselsayyed)
 
 [![YouTube Badge](https://img.shields.io/badge/-@YounisElSayyed-c4302b?style=flat-square&labelColor=c4302b&logo=youtube&logoColor=white&link=https://www.youtube.com/@YounisElSayyed)](https://www.youtube.com/@YounisElSayyed)
 [![Twitter Badge](https://img.shields.io/badge/-@younis_elsayyed-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/younis_elsayyed)](https://twitter.com/younis_elsayyed)
