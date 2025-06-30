@@ -47,3 +47,30 @@ elif competition == "No":
     print("Good luck, you can enter the competition with us next season if you like")
 else: 
     print("Sorry, you must choose the Yes or No")
+
+## مشروع الالة حاسبة في لغه بايثون 
+Name= float(input ("What is your name : "))
+print("Welcome to the calculator : " + Name)
+Num1= float(input ("Enter the first number : "))
+operation = input ("Choose to end process ( +, -, *, /, % ) : ")
+Num2= float(input ("Enter the second number: "))
+if operation == "+" :
+    result= (Num1 + Num2)
+    print("is result = " result)
+elif operation== "-" :
+    result=(Num1 - Num2)
+    print("is result = " result)
+elif operation== "*" :
+    result=(Num1 * Num2)
+    print("is result = " result)
+elif operation== "/" :
+    result=(Num1 / Num2)
+    if Num2 != 0 :
+        print("sorry ")
+    print("is result = " result)
+elif operation== "%" :
+    result=(Num1 % Num2)
+    print("is result = " result)
+else :
+    print("sorry ")
+    
