@@ -73,4 +73,10 @@ elif operation== "%" :
     print("is result = " result)
 else :
     print("sorry ")
-    
+
+    ## برنامج حساب العمر المستخدم 
+name = print("What is your name : ")
+print("Welcom to Knowing age " + name )
+year= int(input ("WWhat year were you born? "))
+age= (2025 - year)
+print("Your age now is  " + str(age))
