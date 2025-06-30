@@ -74,12 +74,14 @@ elif operation== "%" :
 else :
     print("sorry ")
 
-    ## مشروع حساب عمر المستخدم في لغه بايثون 
-name = print("What is your name : ")
+    # برنامج حساب العمر المستخدم في لغه بايثون 
+name =str(input ("What is your name : "))
 print("Welcom to Knowing age " + name )
-year= int(input ("WWhat year were you born? "))
-age= (2025 - year)
+year_now= int(input("How old are we? "))
+year= int(input ("What year were you born? "))
+age= (year_now - year)
 print("Your age now is  " + str(age))
+
 
 
 مشروع معرفة الاسم و العمر و الوزن و الطول و BMI المستخدم في لغه جافا 
