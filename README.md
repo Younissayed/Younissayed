@@ -29,3 +29,21 @@
 ### ✍️ أكتب أيضًا مقالات برمجية على:
 [مدونتي قيد الإنشاء](https://youniselsayyed.dev)
 
+## مشروع في مسابقة كرة القدم في لغه بايثون 
+
+the_player=input("What is the player's name? ") 
+print("Welcome " , the_player)
+Terms = ("To be able to enter the competition, you must choose 25 players with you on the list ")
+competition= input ("would you like to enter the competition with us , (Yes or No):") 
+if competition == "Yes":
+    print(Terms)
+    play= input("Do you agree these terms? (Yes or No) ")
+    if play == "Yes":
+        print("I will contact you within the first seven weeks before the competition")
+    else:
+        print("Good luck, you can enter the competition with us next season if you like")
+        
+elif competition == "No":
+    print("Good luck, you can enter the competition with us next season if you like")
+else: 
+    print("Sorry, you must choose the Yes or No")
