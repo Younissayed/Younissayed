@@ -74,9 +74,41 @@ elif operation== "%" :
 else :
     print("sorry ")
 
-    ## مشروع حساب عمر المستخدم 
+    ## مشروع حساب عمر المستخدم في لغه بايثون 
 name = print("What is your name : ")
 print("Welcom to Knowing age " + name )
 year= int(input ("WWhat year were you born? "))
 age= (2025 - year)
 print("Your age now is  " + str(age))
+
+
+مشروع معرفة الاسم و العمر و الوزن و الطول و BMI المستخدم في لغه جافا 
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+	
+		System.out.print("Enter your name ");
+		String name= input.nextLine();
+		
+		System.out.print("Enter your age ");
+		int age= input.nextInt();
+		
+	    System.out.print("Enter your weight (Kg) ");	
+        double weight= input.nextDouble();
+		
+        System.out.print("Enter your height ");	
+        double height= input.nextDouble();
+		
+		
+		double BMI = weight/(height*height);
+   System.out.printf("Name : %s%n", name);
+	 System.out.printf("Age : %d%n", age);
+   System.out.printf("weight : %.2f%n", weight);
+	 System.out.printf("height : %.2f%n", height);
+   System.out.printf("BMI : %.2f%n", BMI);
+	
+	
+	}
+}
