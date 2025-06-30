@@ -74,7 +74,7 @@ elif operation== "%" :
 else :
     print("sorry ")
 
-    ## برنامج حساب العمر المستخدم 
+    ## مشروع حساب عمر المستخدم 
 name = print("What is your name : ")
 print("Welcom to Knowing age " + name )
 year= int(input ("WWhat year were you born? "))
