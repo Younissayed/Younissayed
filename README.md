@@ -48,7 +48,7 @@ elif competition == "No":
 else: 
     print("Sorry, you must choose the Yes or No")
 
-## مشروع الالة حاسبة في لغه بايثون 
+# مشروع الالة حاسبة في لغه بايثون 
 Name= float(input ("What is your name : "))
 print("Welcome to the calculator : " + Name)
 Num1= float(input ("Enter the first number : "))
@@ -74,7 +74,7 @@ elif operation== "%" :
 else :
     print("sorry ")
 
-    # برنامج حساب العمر المستخدم في لغه بايثون 
+ # برنامج حساب العمر المستخدم في لغه بايثون 
 name =str(input ("What is your name : "))
 print("Welcom to Knowing age " + name )
 year_now= int(input("How old are we? "))
@@ -82,9 +82,38 @@ year= int(input ("What year were you born? "))
 age= (year_now - year)
 print("Your age now is  " + str(age))
 
+# مشروع في لغه بايثون والمشروع هو لعبه التخمين 
+import random
+
+name = input("What is your name: ")
+print("Hello", name)
+
+computer_number = random.randint(1, 100)
+attempts = 0
+max_attempts = 5
+
+while attempts < max_attempts:
+    guess = int(input(f"Attempt {attempts + 1}: Enter your guess (1-100): "))
+    attempts += 1
+
+    if guess > computer_number:
+        print("Too high! Try again.")
+    elif guess < computer_number:
+        print("Too low! Try again.")
+    else:
+        print(f"🎉 Congratulations, {name}! You guessed it right in {attempts} attempt(s).")
+        break
+else:
+    print(f"❌ Sorry, {name}. You've used all {max_attempts} attempts.")
+    print(f"The correct number was: {computer_number}")
+    
 
 
-مشروع معرفة الاسم و العمر و الوزن و الطول و BMI المستخدم في لغه جافا 
+
+
+# مشروع معرفة الاسم و العمر و الوزن و الطول و BMI
+
+# المستخدم في لغه جافا 
 
 
 import java.util.Scanner;
