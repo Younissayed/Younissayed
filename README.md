@@ -145,3 +145,94 @@ public class Main
 	
 	}
 }
+
+
+
+## اضيف مستخدم في لغه بايثون 
+
+users = []
+
+def add_user():
+    first_name = input("Enter first name: ")
+    last_name = input("Enter last name: ")
+    email = input("Enter email: ")
+    password = input("Enter password: ")
+
+
+    for user in users:
+        if user["Email"] == email:
+            print("This email is already registered!\n")
+            return
+
+    user = {
+        "First Name": first_name,
+        "Last Name": last_name,
+        "Email": email,
+        "Password": password,
+        "Status": "inactive"
+    }
+
+    users.append(user)
+    print("User added successfully! Account status: inactive\n")
+
+
+def display_users():
+    print("Displaying all users...\n")
+    for user in users:
+        print("First Name:", user["First Name"])
+        print("Last Name:", user["Last Name"])
+        print("Email:", user["Email"])
+        print("Status:", user["Status"])
+        print("-----------------------")
+
+
+def activate_account():
+    email = input("Enter your email to activate your account: ")
+    for user in users:
+        if user["Email"] == email:
+            user["Status"] = "active"
+            print("Account activated successfully!\n")
+            return
+    print("Email not found!\n")
+
+
+def login():
+    email = input("Enter your email: ")
+    password = input("Enter your password: ")
+
+    for user in users:
+        if user["Email"] == email and user["Password"] == password:
+            if user["Status"] == "active":
+                print(f"Welcome {user['First Name']}! You have successfully logged in.\n")
+            else:
+                print("Your account is inactive. Please activate it first.\n")
+            return
+
+    print("Invalid email or password.\n")
+
+
+
+while True:
+    print("Welcome to User Management System")
+    print("Choose an Action:\n")
+    print("1. Add new user")
+    print("2. Display all users")
+    print("3. Activate account")
+    print("4. Login")
+    print("5. Exit\n")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        add_user()
+    elif choice == "2":
+        display_users()
+    elif choice == "3":
+        activate_account()
+    elif choice == "4":
+        login()
+    elif choice == "5":
+        print("Exiting the program. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please try again.\n")
