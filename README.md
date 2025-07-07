@@ -236,3 +236,25 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.\n")
+
+
+## اختيار طبخة اكل في لغه بايثون 
+
+
+print("Welcome to Recipe Collection\n ")
+Name= str(input("Enter recipe name: "))
+Ingredients= str(input("Enter ingredients (comma_separated) : "))
+Cooking_Time= str(input("Enter cooking time : "))
+Ingredients= str(input("Enter cooking instructions : "))
+
+print("Recipe added successfully!\n ")
+print("Displaying recipe .... ")
+ 
+
+print("Name: "+Name)
+print("Ingredients: "+Ingredients)
+print("Cooking Time: "+Cooking_Time)
+print("Ingredients: "+Ingredients)
+
+print("---------------------")
+print("younis elsayed@MacBook-pro Chapter 1 %")
