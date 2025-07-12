@@ -258,3 +258,53 @@ print("Ingredients: "+Ingredients)
 
 print("---------------------")
 print("younis elsayed@MacBook-pro Chapter 1 %")
+
+## تغير المخرج داخل الدالة 
+
+class Movie:
+    
+    def __init__ (self, Title, Director, Release_Year, Genre):
+        self.Title = Title
+        self.Director = Director
+        self.Release_Year = Release_Year
+        self.Genre = Genre
+        
+    
+    def display_movie(self):
+        print(f"Title: {self.Title}")
+        print(f"Director: {self.Director}")
+        print(f"Release_Year: {self.Release_Year}")
+        print(f"Genre: {self.Genre}")
+        
+    def mark_as_director(self, new_director):
+        self.Director = new_director
+        
+        
+        
+        
+movie1 =Movie("Inception", "Christopher Nolan", 2010, "Sci-fi")      
+movie2 =Movie("The Godfather", "Francis Ford Coppola", 1972, "Crime") 
+movie3 =Movie("Parasite", "Bong Joon-ho", 2019, "Thriller")
+
+
+print("__ MOVTIES LIST__\n")
+movie1.display_movie()
+print("_"*20)
+movie2.display_movie()
+print("_"*20)
+movie3.display_movie()
+
+
+print("\nChanging Movie Directors......\n")
+movie1.mark_as_director("Shokry Sarhan")
+print("_"*20)
+movie2.mark_as_director("Ahmed Mazhar")
+
+movie3.mark_as_director("Isame Yassin")
+
+
+movie1.display_movie()
+print("_"*20)
+movie2.display_movie()
+print("_"*20)
+movie3.display_movie()
